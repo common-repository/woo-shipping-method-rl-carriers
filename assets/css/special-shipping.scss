@@ -1,0 +1,42 @@
+#rqr-destination-accessorials {
+  width: 100%;
+  list-style: none;
+  p.form-row {
+    cursor:pointer;
+  }
+  button {
+    margin:1em 0 .5em;
+    display:block;
+  }
+  label:after, .info-tooltip {
+    position: absolute;
+    width: 11px;
+    height: 15px;
+    background: url('../img/info.png') no-repeat 0 4px;
+  }
+  label {
+    position: relative;
+    padding-right: 25px;
+    &:after {
+      content: '';
+      right: 5px;
+      top: 2px;
+      opacity: .4;
+    }
+  }
+  li {
+    position: relative;
+  }
+  .info-tooltip {
+    padding-left: 3px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+  }
+}
+.rlc-special-shipping {
+  p:first-child {
+    margin-bottom: 1em;
+  }
+}
